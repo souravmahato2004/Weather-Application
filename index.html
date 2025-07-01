@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <section class="container">
+        <div class="weather_header">
+            <form action="" class="weather_search">
+                <i class="ri-search-line"></i>
+                <input type="text" placeholder="Search your city..." id="city_name">
+            </form>
+        </div>
+        <div class="weather_body">
+            <h1 style="margin: 0px;" class="weather_city">Name of the city</h1>
+            <p style="margin: 0px;" class="weather_date_time">Weather Date and time</p>
+            <div class="weather_data">
+                <p class="weather_forecast">????</p>
+                <div class="weather_icon">Icon</div>
+            </div>
+            <p class="weather_temperature">27.8&#176</p>
+            <div class="min_max">
+                <div class="weather_min">min:24&#176</div>
+                <div class="weather_max">max:29&#176</div>
+            </div>
+        </div>
+        <div class="weather_info">
+            <div class="weather_card">
+                <i class="ri-temp-hot-line"></i>
+                <div class="content">
+                    <p>Feels Like</p>
+                    <p class="weather_feelsLike">32&#176</p>
+                </div>
+            </div>
+            <div class="weather_card">
+                <i class="ri-drop-fill"></i>
+                <div class="content">
+                    <p>Humidity</p>
+                    <p class="weather_humidity">32&#176</p>
+                </div>
+            </div>
+            <div class="weather_card">
+                <i class="ri-windy-line"></i>
+                <div class="content">
+                    <p>Wind</p>
+                    <p class="weather_wind">32&#176</p>
+                </div>
+            </div>
+            <div class="weather_card">
+                <i class="ri-speed-up-line"></i>
+                <div class="content">
+                    <p>Pressure</p>
+                    <p class="weather_pressure">32&#176</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

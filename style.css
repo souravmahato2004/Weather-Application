@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #002b36, #14655b, #a7ffeb);
+}
+
+.container{
+    position: relative;
+    top: 50px;
+    background-color: rgba(255, 255, 255, 0.385);
+    width: 40%; 
+    height: fit-content;
+    border: none; 
+    border-radius: 10px;
+}
+.weather_header{
+    width: fit-content;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.weather_search {
+  position: relative;
+  width: 80%;
+}
+
+.weather_search i {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.385);
+  pointer-events: none;
+}
+
+.weather_search input {
+  width: 100%;
+  padding: 10px 12px 10px 36px;
+  border: none;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.385);
+  color: rgba(255, 255, 255, 0.385); 
+  font-size: 16px;
+  outline: none;
+}
+
+.weather_search input::placeholder {
+  color: rgba(255, 255, 255, 0.385);
+}
+
+.weather_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather_forecast{
+    background-color: rgba(0, 0, 0, 0.385);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 30px;
+    font-size: large;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.weather_temperature{
+    font-size: x-large;
+    margin: 0px;
+}
+
+.min_max{
+    display: flex;
+    gap: 10px;
+}
+
+.weather_info{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.weather_card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 10px;
+     border-radius: 10px;
+    box-shadow: 10px 8px 20px rgba(0, 0, 0, 0.2); 
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);  
+}
+.weather_card i{
+    font-size: x-large;
+}
+
+.content{
+    margin: 15px 0px;
+}
+
+.content p{
+    margin: 0px;
+    padding: 0px;
+}
