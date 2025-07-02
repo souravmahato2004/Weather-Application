@@ -17,6 +17,13 @@ body{
     border: none; 
     border-radius: 10px;
 }
+
+@media screen and (max-width: 830px) {
+    .container{
+        width: 80%;
+    }
+}
+
 .weather_header{
     width: fit-content;
     margin: 10px;
